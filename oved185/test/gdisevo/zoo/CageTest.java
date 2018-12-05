@@ -7,8 +7,10 @@ import org.junit.jupiter.api.Test;
 class CageTest {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void idFirst() {
+		Cage<Rhino> cage = new Cage<>(3);
+		
+		
 	}
 
 }
