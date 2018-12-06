@@ -27,6 +27,7 @@ public class Cage<T extends Animal> {
 	}
 	
 	public boolean add(T animal) {
+		//TODO reject duplicated names
 		if (max == guests.size()) {
 			return false;
 		}
